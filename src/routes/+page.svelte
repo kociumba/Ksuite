@@ -1,7 +1,7 @@
 <h1 class="center poppins">Welcome to</h1>
 <div class="logo-stack">
-    <img class="center tool-logo bottom" src="src\lib\ksuite.svg" alt="Ksuite logo" />
-    <img class="center top" src="src\lib\ksuite-no-blur.svg" alt="Ksuite logo" />
+    <img class="center tool-logo bottom" src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksuite.svg" alt="Ksuite logo" />
+    <img class="center top" src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksuite-no-blur.svg" alt="Ksuite logo" />
 </div>
 
 <h1 class="center poppins">Check out the tools below:</h1>
@@ -12,11 +12,11 @@
             <h1 class="poppins">Ktool</h1>
             <div class="logo-stack">
                 <img
-                    src="src\lib\ktool-ico.svg"
+                    src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ktool-ico.svg"
                     alt="Ktool"
                     class="tool-logo bottom font-offset"
                 />
-                <img src="src\lib\ktool-ico-no-blur.svg" alt="Ktool" class="top font-offset"/>
+                <img src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ktool-ico-no-blur.svg" alt="Ktool" class="top font-offset"/>
             </div>
         </div>
         </a>
@@ -27,11 +27,11 @@
             <h1 class="poppins">Ksorter</h1>
             <div class="logo-stack">
                 <img
-                    src="src\lib\ksorter-ico.svg"
+                    src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksorter-ico.svg"
                     alt="Ksorter"
                     class="tool-logo bottom font-offset"
                 />
-                <img src="src\lib\ksorter-ico-no-blur.svg" alt="Ksorter" class="top font-offset"/>
+                <img src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksorter-ico-no-blur.svg" alt="Ksorter" class="top font-offset"/>
             </div>
         </div>
         </a>
@@ -42,11 +42,11 @@
             <h1 class="poppins">Kinjector</h1>
             <div class="logo-stack">
                 <img
-                    src="src\lib\kinjector-ico.svg"
+                    src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/kinjector-ico.svg"
                     alt="Kinjector"
                     class="tool-logo bottom font-offset"
                 />
-                <img src="src\lib\kinjector-ico-no-blur.svg" alt="Kinjector" class="top font-offset"/>
+                <img src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/kinjector-ico-no-blur.svg" alt="Kinjector" class="top font-offset"/>
             </div>
         </div>
         </a>
