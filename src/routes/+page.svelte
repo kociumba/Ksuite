@@ -1,54 +1,74 @@
 <h1 class="center poppins">Welcome to</h1>
 <div class="logo-stack">
-    <img class="center tool-logo bottom main-logo" src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksuite.svg" alt="Ksuite logo" />
-    <img class="center top main-logo" src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksuite-no-blur.svg" alt="Ksuite logo" />
+    <img
+        class="center tool-logo bottom main-logo"
+        src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksuite.svg"
+        alt="Ksuite logo"
+    />
+    <img
+        class="center top main-logo"
+        src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksuite-no-blur.svg"
+        alt="Ksuite logo"
+    />
 </div>
 
 <h1 class="center poppins">Check out the tools below:</h1>
 <div class="center project-showcase">
     <div id="Ktool">
         <a class="tool-title" href="https://github.com/kociumba/ktool">
-        <div class="showcase center ktool">
-            <h1 class="poppins">Ktool</h1>
-            <div class="logo-stack">
-                <img
-                    src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ktool-ico.svg"
-                    alt="Ktool"
-                    class="tool-logo bottom font-offset"
-                />
-                <img src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ktool-ico-no-blur.svg" alt="Ktool" class="top font-offset"/>
+            <div class="showcase center ktool">
+                <h1 class="poppins">Ktool</h1>
+                <div class="logo-stack">
+                    <img
+                        src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ktool-ico.svg"
+                        alt="Ktool"
+                        class="tool-logo bottom font-offset"
+                    />
+                    <img
+                        src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ktool-ico-no-blur.svg"
+                        alt="Ktool"
+                        class="top font-offset"
+                    />
+                </div>
             </div>
-        </div>
         </a>
     </div>
     <div id="Ksorter">
         <a class="tool-title" href="https://github.com/kociumba/ksorter">
-        <div class="showcase center ksorter">
-            <h1 class="poppins">Ksorter</h1>
-            <div class="logo-stack">
-                <img
-                    src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksorter-ico.svg"
-                    alt="Ksorter"
-                    class="tool-logo bottom font-offset"
-                />
-                <img src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksorter-ico-no-blur.svg" alt="Ksorter" class="top font-offset"/>
+            <div class="showcase center ksorter">
+                <h1 class="poppins">Ksorter</h1>
+                <div class="logo-stack">
+                    <img
+                        src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksorter-ico.svg"
+                        alt="Ksorter"
+                        class="tool-logo bottom font-offset"
+                    />
+                    <img
+                        src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksorter-ico-no-blur.svg"
+                        alt="Ksorter"
+                        class="top font-offset"
+                    />
+                </div>
             </div>
-        </div>
         </a>
     </div>
     <div id="Kinjector">
         <a class="tool-title" href="https://github.com/kociumba/Kinjector">
-        <div class="showcase center kinjector">
-            <h1 class="poppins">Kinjector</h1>
-            <div class="logo-stack">
-                <img
-                    src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/kinjector-ico.svg"
-                    alt="Kinjector"
-                    class="tool-logo bottom font-offset"
-                />
-                <img src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/kinjector-ico-no-blur.svg" alt="Kinjector" class="top font-offset"/>
+            <div class="showcase center kinjector">
+                <h1 class="poppins">Kinjector</h1>
+                <div class="logo-stack">
+                    <img
+                        src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/kinjector-ico.svg"
+                        alt="Kinjector"
+                        class="tool-logo bottom font-offset"
+                    />
+                    <img
+                        src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/kinjector-ico-no-blur.svg"
+                        alt="Kinjector"
+                        class="top font-offset"
+                    />
+                </div>
             </div>
-        </div>
         </a>
     </div>
 </div>
@@ -57,10 +77,10 @@
     @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
     ::selection {
-        background-color: #c0c0c0;
-        color: #000000;
+        background-color: #c0c0c0 !important;
+        color: #000000 !important;
     }
-    
+
     .center {
         text-align: center;
         display: block;
@@ -81,7 +101,6 @@
         width: 300px;
         border-radius: 20px;
         padding: 5px;
-
     }
 
     .main-logo {
@@ -90,7 +109,7 @@
     }
 
     .tool-title {
-        text-decoration: none; 
+        text-decoration: none;
     }
 
     .tool-logo {
@@ -101,14 +120,14 @@
         display: grid;
     }
 
-    .logo-stack img:nth-child(1)  {
+    .logo-stack img:nth-child(1) {
         margin-left: auto;
         margin-right: auto;
         grid-row: 1;
         grid-column: 1;
     }
 
-    .logo-stack img:nth-child(2)  {
+    .logo-stack img:nth-child(2) {
         margin-left: auto;
         margin-right: auto;
         grid-row: 1;
@@ -116,7 +135,7 @@
     }
 
     .font-offset {
-        margin-left: 40px !important; 
+        margin-left: 40px !important;
     }
 
     .bottom {
@@ -170,7 +189,7 @@
         font-family: "Poppins";
     }
 
-    :global(html,body) {
+    :global(html, body) {
         /* background: rgb(9, 9, 11); */
         background: linear-gradient(180deg, #180c0eec 0%, #000000 100%);
         min-height: 100vh;
