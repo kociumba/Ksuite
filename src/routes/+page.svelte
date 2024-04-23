@@ -66,7 +66,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        color: ghostwhite;
+        color: white;
     }
 
     .project-showcase {
@@ -165,7 +165,7 @@
         font-family: "Poppins";
     }
 
-    :global(body) {
+    :global(html,body) {
         /* background: rgb(9, 9, 11); */
         background: linear-gradient(180deg, #180c0eec 0%, #000000 100%);
         min-height: 100vh;
