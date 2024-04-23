@@ -1,7 +1,7 @@
 <h1 class="center poppins">Welcome to</h1>
 <div class="logo-stack">
-    <img class="center tool-logo bottom" src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksuite.svg" alt="Ksuite logo" />
-    <img class="center top" src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksuite-no-blur.svg" alt="Ksuite logo" />
+    <img class="center tool-logo bottom main-logo" src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksuite.svg" alt="Ksuite logo" />
+    <img class="center top main-logo" src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksuite-no-blur.svg" alt="Ksuite logo" />
 </div>
 
 <h1 class="center poppins">Check out the tools below:</h1>
@@ -82,6 +82,11 @@
         border-radius: 20px;
         padding: 5px;
 
+    }
+
+    .main-logo {
+        width: 400px;
+        height: 250px;
     }
 
     .tool-title {
