@@ -1,5 +1,4 @@
 <script>
-    import "$lib/footer.svelte"
     import Footer from "$lib/footer.svelte";
 </script>
 
@@ -85,8 +84,8 @@
     @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
     ::selection {
-        background-color: #c0c0c0 !important;
-        color: #000000 !important;
+        background-color: #0000005e !important;
+        color: #ffffff !important;
     }
 
     .center {
@@ -155,7 +154,7 @@
     }
 
     .ktool {
-        background: linear-gradient(135deg, #27272780 0%, #745777 100%);
+        background: linear-gradient(135deg, #ffffff11 0%, #745777 100%);
         transition:
             transform 0.3s ease-in-out,
             box-shadow 0.3s ease-in-out;
@@ -168,7 +167,7 @@
     }
 
     .ksorter {
-        background: linear-gradient(135deg, #27272780 0%, #a86d4a8a 100%);
+        background: linear-gradient(135deg, #ffffff11 0%, #a86d4a8a 100%);
         transition:
             transform 0.3s ease-in-out,
             box-shadow 0.3s ease-in-out;
@@ -181,7 +180,7 @@
     }
 
     .kinjector {
-        background: linear-gradient(135deg, #27272780 0%, #71c46e7c 100%);
+        background: linear-gradient(135deg, #ffffff11 0%, #71c46e7c 100%);
         transition:
             transform 0.3s ease-in-out,
             box-shadow 0.3s ease-in-out;
@@ -199,7 +198,7 @@
 
     :global(html, body) {
         /* background: rgb(9, 9, 11); */
-        background: linear-gradient(180deg, #180c0eec 0%, #000000 100%);
+        background: linear-gradient(180deg, #271417ec 0%, #000000 100%);
         min-height: 100vh;
         margin: 0;
         overflow: hidden;
