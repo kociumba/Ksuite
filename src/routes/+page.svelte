@@ -6,6 +6,12 @@
   <meta name="theme-color" content="#FF5876"/>
   <meta name="description" content="Home of the Ksuite of tools">
   <title>Ksuite</title>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksuite.vercel.app/">
+  <meta property="og:title" content="Ksuite">
+  <meta property="og:description"
+      content="Home of the Ksuite of tools">
+  <meta property="og:image" content="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksuite.svg">
 </svelte:head>
 
 <main>
