@@ -1,0 +1,24 @@
+{
+    "short_name": "Ksuite",
+    "name": "Ksuite home",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "ksuite_icon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "ksuite_icon.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "background_color": "#3367D6",
+    "display": "minimal-ui",
+    "scope": "/",
+    "theme_color": "#FF5876",
+    "shortcuts": [],
+    "description": "Home of the Ksuite of tools"
+}

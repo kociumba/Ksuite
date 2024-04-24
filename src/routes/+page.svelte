@@ -2,6 +2,12 @@
     import Footer from "$lib/footer.svelte";
 </script>
 
+<svelte:head>
+  <meta name="theme-color" content="#FF5876"/>
+  <meta name="description" content="Home of the Ksuite of tools">
+  <title>Ksuite</title>
+</svelte:head>
+
 <main>
     <h1 class="center poppins">Welcome to</h1>
     <div class="logo-stack">
@@ -196,11 +202,11 @@
         font-family: "Poppins";
     }
 
-    :global(html, body) {
+    :global(html) {
         /* background: rgb(9, 9, 11); */
-        background: linear-gradient(180deg, #271417ec 0%, #000000 100%);
+        background: linear-gradient(-160deg, #1d0f11 0%, #000000 100%);
         min-height: 100vh;
         margin: 0;
-        overflow: hidden;
+        overflow: visible;
     }
 </style>
