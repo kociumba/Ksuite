@@ -12,6 +12,7 @@
   <meta property="og:description"
       content="Home of the Ksuite of tools">
   <meta property="og:image" content="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/ksuite.svg">
+  <meta property="og:image:alt" content="static/ksuite.svg">
 </svelte:head>
 
 <main>
