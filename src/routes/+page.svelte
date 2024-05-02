@@ -89,6 +89,24 @@
                 </div>
             </a>
         </div>
+        <div id="Kpixel">
+            <a class="tool-title" href="https://github.com/kociumba/Kpixel">
+                <div class="showcase center kpixel">
+                    <h1 class="poppins">Kpixel</h1>
+                    <div class="logo-stack">
+                        <img
+                            src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/kpixel-ico.svg"
+                            alt="Kpixel"
+                            class="tool-logo bottom font-offset"
+                        />
+                        <img
+                            src="https://raw.githubusercontent.com/kociumba/Ksuite/main/src/lib/kpixel-ico-no-blur.svg"
+                            alt="Kpixel"
+                            class="top font-offset"
+                        />
+                </div>
+            </a>
+        </div>
     </div>
     <Footer />
 </main>
@@ -111,7 +129,7 @@
 
     .project-showcase {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 10px;
         margin: 5vh;
     }
@@ -176,7 +194,7 @@
 
     .ktool:hover {
         transform: scale(1.05);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
     }
 
     .ksorter {
@@ -189,7 +207,7 @@
 
     .ksorter:hover {
         transform: scale(1.05);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
     }
 
     .kinjector {
@@ -202,7 +220,20 @@
 
     .kinjector:hover {
         transform: scale(1.05);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+    }
+
+    .kpixel {
+        background: linear-gradient(135deg, #ffffff11 0%, #71fff67c 100%);
+        transition:
+            transform 0.3s ease-in-out,
+            box-shadow 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .kpixel:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
     }
 
     .poppins {
