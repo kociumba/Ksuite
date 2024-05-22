@@ -15,3 +15,7 @@ This repo houses the website for my K suite of tools that so far includes:
 The website so far is bare bones and only contains links to the other tools.
 
 This will be expanded upon in the future when I have more time.
+
+> [!IMPORTANT]
+> This website is no longer used as i didn't want to to ui this time so the new website is expliting framer at
+> [Ksuite](https://ksuite.framer.website)
